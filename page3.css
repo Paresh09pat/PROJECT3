@@ -1,0 +1,273 @@
+.box1{
+    font-size: 70px;
+    width: 60%;
+    margin:1%;
+    
+    }
+    
+    .box2{
+        padding: 15px 0 0 10px;
+        width: 20%;
+        margin-left: 70%;
+        text-decoration: none;
+        position: absolute;
+        top: 0%;
+    }
+    
+    .he1{
+    font-size: 70px;
+    font-weight: bolder;
+    }
+    
+    .he2{
+    padding: 20px;
+    margin-top: 10px;
+    font-size: xx-large;
+    text-decoration: none;
+    }
+    
+    .main{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        margin-top: 3%;     
+    }
+    
+    .main div{
+        border: 2px solid rgb(247, 26, 33);
+        width: 35%;
+        height: 400px;
+        font-size: xx-large;
+        text-align: center;
+        border-radius: 20px;
+        margin: 3%;
+        box-shadow: 5px 5px rgb(194, 185, 185);  
+    }
+    
+    .a1{
+    color: rgb(207, 130, 103);
+    text-decoration: none;
+    }
+    
+    .a2{
+    text-decoration: line-through;
+    color: red;
+    }
+
+    .contain:not(#block) {
+        filter: blur(8px);
+        opacity: 80%;
+    }
+    
+    #block{
+        border: 2px solid rgb(238, 51, 51);
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 5%;
+        text-align: center;
+        padding-top: 2%;
+        font-size: x-large;
+        height: 25%;
+        border-radius: 10px;
+        box-shadow: 10px 10px rgb(221, 214, 214);
+        filter: blur(0px);
+        position: absolute;
+        z-index:1;
+        top: 30%;
+    
+    }
+    
+    .kk{
+        border: 1px solid red;
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 5%;
+        border-radius: 50px;
+        color: white;
+        background-color: red;
+    
+    }
+    
+    .kk1{
+        width:70%;
+        height: 20%;
+        border: 1px solid rgb(246, 12, 12);
+        margin-left: 15%;
+        margin-top: 5%;
+        border-radius: 10px;
+        box-shadow: 5px 5px rgb(242, 235, 235);
+    }
+
+    @media only screen and (max-width: 480px) {
+        body {
+            background-image:linear-gradient(rgb(245, 173, 173), yellow, rgb(238, 183, 183));
+            display: block;
+        }
+        .box{
+            width: 100%;
+            margin: 0;
+            height: auto;
+           
+        }
+
+        .box1{
+            font-size: 50px;
+            width: 70%;
+            height: auto;
+            font-weight: bolder;
+            margin: 0;
+        }
+
+        .he1{
+            font-size: 50px;
+        }
+
+        .he2{
+            visibility: hidden;
+            width: 10px;
+        }
+
+        .he3{
+            width: 40px;
+            height: 40px;
+            font-size: 30px;
+            border-radius: 50%;
+            background-color: red;
+        }
+
+        .box2{
+            width:30%;
+            font-size: 10px;
+            height: auto;
+            float: left;
+        }
+
+        .main{
+            display:inline-block;
+            width: 100%;
+            height: auto;
+            margin: 0;
+            
+        }
+
+        .main div{
+            width: 90%;
+            height: 80px;
+            margin-top: 10px;
+            text-align:left;
+            margin-right: 10px;
+            font-size: 30px; 
+            padding-left: 15px; 
+            padding-bottom: 10px;
+            box-shadow: 5px 5px rgb(174, 125, 220);  
+        }
+
+        .rr{
+            visibility: hidden;
+        }
+
+        .rr1{
+            visibility: hidden;
+        }
+
+        .rr2{
+            visibility: hidden;
+        }
+
+        #block{
+            width: 80%;
+            margin: 0;
+            margin-left: 5%;
+        }
+
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 900px)   {
+        body {
+            background-image:linear-gradient(yellow, green, blue);
+            display: block;
+        }
+        .box{
+            width: 100%;
+            margin: 0;
+            height: auto;
+           
+        }
+
+        .box1{
+            font-size: 50px;
+            width: 70%;
+            height: auto;
+            font-weight: bolder;
+            margin: 0;
+        }
+
+        .he1{
+            font-size: 50px;
+        }
+
+        .he2{
+            visibility: hidden;
+            width: 10px;
+        }
+
+        .he3{
+            width: 40px;
+            height: 40px;
+            font-size: 30px;
+            border-radius: 50%;
+            background-color: red;
+        }
+
+        .box2{
+            width:30%;
+            font-size: 10px;
+            height: auto;
+            float: left;
+        }
+
+        .main{
+            display:inline-block;
+            width: 100%;
+            height: auto;
+            margin: 0;
+            
+        }
+
+        .main div{
+            width: 90%;
+            height: 90px;
+            margin-top: 10px;
+            text-align:left;
+            margin-right: 10px;
+            font-size: 40px; 
+            padding-left: 15px; 
+            padding-bottom: 20px;
+            box-shadow: 5px 5px rgb(141, 79, 200);  
+        }
+
+        .a1{
+            color: red;
+        }
+
+        .rr{
+            visibility: hidden;
+        }
+
+        .rr1{
+            visibility: hidden;
+        }
+
+        .rr2{
+            visibility: hidden;
+        }
+
+        #block{
+            width: 80%;
+            margin: 0;
+            margin-left: 10%;
+        }
+
+    }
+
+    
